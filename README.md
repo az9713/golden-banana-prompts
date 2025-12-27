@@ -466,6 +466,120 @@ High-resolution, photorealistic, clean flatlay style.
 
 ---
 
+## Meta-Pattern Analysis
+
+After studying all 49 prompts, **4 reusable meta-patterns** were identified that appear across multiple prompts with consistent structural elements.
+
+### Pattern Summary
+
+| Meta-Pattern | Prompts | Key Identifiers |
+|--------------|---------|-----------------|
+| Isometric Miniature Diorama | #2, #3, #17, #34, #42 | "45° top-down isometric", "diorama-style base", "1080x1080" |
+| Reference Image Portrait | #6, #13, #31, #32, #39 | "uploaded reference image", "face 100% accurate" |
+| Miniature World in Container | #18, #38, #44, #45 | Container + miniature scene, macro/tilt-shift style |
+| Multi-Cell Grid | #22, #24, #33 | "3x3 grid", variations per cell |
+| **Unique (No Pattern)** | ~32 prompts | - |
+
+*Note: ~65% of prompts are structurally unique, suggesting the collection prioritizes creative diversity.*
+
+---
+
+### Template 1: Isometric Miniature Diorama
+
+**Common elements:** 45° perspective, PBR materials, diorama base, solid background, centered 1080x1080
+
+```
+Present a clear, 45° top-down isometric miniature 3D [cartoon scene/diorama] of [SUBJECT].
+
+[SUBJECT DETAILS - specific elements, landmarks, characters, environmental details]
+
+Use soft refined textures, realistic PBR materials, and gentle lifelike lighting.
+Create a small raised diorama-style base that includes [KEY RECOGNIZABLE ELEMENTS].
+[Optional: Include tiny stylized characters if needed (no facial details).]
+
+Use a clean solid [BACKGROUND COLOR] background.
+[Optional: At the top-center, display "[TITLE]" in large bold text, [SUBTITLE] in medium text below.]
+[Optional: All text must automatically match the background contrast (white or black).]
+
+Composition: perfectly centered layout, square 1080x1080, ultra-clean, high-clarity diorama aesthetic.
+```
+
+---
+
+### Template 2: Reference Image Portrait with Identity Preservation
+
+**Common elements:** Uploaded reference, face accuracy requirement, lighting/background specs, 8K quality
+
+```
+[SCENE DESCRIPTION] featuring [the person/subject] [from the uploaded reference image].
+
+[POSE AND ACTION DETAILS]
+
+[Keep the face 100% accurate / The face must match the uploaded reference image exactly] — realistic skin tone, accurate structure, no facial alteration.
+
+[CLOTHING/STYLING DETAILS]
+
+[ENVIRONMENT/BACKGROUND DESCRIPTION]
+
+Lighting: [LIGHTING STYLE - e.g., "soft studio lighting", "cinematic lighting"]
+Style: [STYLE DESCRIPTION]
+Quality: [ultra-sharp 4K / 8K photorealism]
+Aspect ratio: [16:9 / 1080x1080]
+```
+
+---
+
+### Template 3: Miniature World Inside Container
+
+**Common elements:** Container object, miniature scene inside, macro photography, realism anchors
+
+```
+[Create/Present] a [hyper-realistic/macro photoreal] [photograph/3D render] of [CONTAINER OBJECT] containing a miniature [3D scene/diorama] of [SCENE DESCRIPTION].
+
+[Inside the container], render [MINIATURE ELEMENTS], including [SPECIFIC DETAILS], arranged with [fine handcrafted realism / ultra-detailed miniature realism].
+
+[ADDITIONAL SCENE DETAILS - sky, atmosphere, surrounding elements]
+
+[LIGHTING DESCRIPTION - e.g., "warm lighting to enhance the surface"]
+
+[REALISM ANCHORS - e.g., "include a large fingerprint for real-world scale", "feature clear water droplets"]
+
+[PHOTOGRAPHY STYLE - e.g., "tilt-shift photography", "cinematic macro perspective"]
+
+[Background description - e.g., "Studio blurred background"]
+
+Ultra-[high detail/detailed], [cinematic miniature realism / photorealistic style]. [Aspect ratio if specified]
+```
+
+---
+
+### Template 4: Multi-Cell Grid Layout
+
+**Common elements:** 3x3 format, different variation per cell, consistency requirement
+
+```
+[Create/Present] a [cinematic] 3x3 grid [of/presenting] [GRID PURPOSE] of [SUBJECT].
+
+Each [cell/frame] [must feature/shows] a [different/distinct] [VARIATION TYPE]:
+- [Variation 1]
+- [Variation 2]
+- [Variation 3]
+- [Variation 4]
+- [Variation 5]
+- [Variation 6]
+- [Variation 7]
+- [Variation 8]
+- [Variation 9]
+
+[CONSISTENCY REQUIREMENT - e.g., "Ensure consistent subject appearance across all frames", "The product must remain accurate with no visual distortion"]
+
+Lighting: [LIGHTING STYLE]
+[Overall style: STYLE DESCRIPTION]
+Quality: [QUALITY SPECIFICATION]
+```
+
+---
+
 ## Credits & Acknowledgments
 
 ### Original Content Creator
