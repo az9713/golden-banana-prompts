@@ -2,6 +2,8 @@
 
 A collection of **49 creative AI image generation prompts** for **Nano Banana Pro** (Google's Gemini-powered image generation tool), extracted from YouTube tutorial videos by [Digital Assets](https://www.youtube.com/@DigitalAssets).
 
+> **🚀 NEW:** Check out [Next-Generation Prompts](NEXT-GEN-PROMPTS.md) — 20 experimental prompts that push beyond "impressive photography" into "impossible photography."
+
 ---
 
 ## Source Videos
